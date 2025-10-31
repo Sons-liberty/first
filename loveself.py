@@ -1,19 +1,3 @@
-# from PIL import Image
-# import os
-#
-# # 获取当前脚本所在目录
-# current_dir = os.path.dirname(os.path.abspath(__file__))
-#
-# # 构建图片的完整路径（假设图片名为 image.jpg）
-# image_path = os.path.join(current_dir, 'test1_a.jpg')
-#
-# # 读取图片
-# img = Image.open(image_path)
-#
-# # 示例：显示图片基本信息
-# print(img.size, image_path
-
-
 import tkinter as tk
 import random
 import threading
@@ -59,6 +43,7 @@ for i in range(200):
       t = threading.Thread(target=dow)
       threads.append(t)
       t.start()  # 注意：这里应该是 t.start()，不是 threads[i].start()
+
 
 
 
